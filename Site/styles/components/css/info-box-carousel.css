@@ -1,0 +1,342 @@
+﻿/* -----------------------------------------
+:: INFO BOX CAROUSEL
+----------------------------------------- */
+#ibc .carousel-control.right {
+	background-image: none;
+}
+
+#ibc .carousel-control.left {
+	background-image: none;
+}
+
+#ibc .article-carousel.carousel-control.right {
+	width: 26px;
+	background: url('../../../graphics/ibc-right.png') center top no-repeat;
+}
+
+#ibc .article-carousel.carousel-control.left {
+	width: 26px;
+	background: url('../../../graphics/ibc-right.png') center top no-repeat;
+}
+
+#ibc .carousel-indicators {
+	bottom: -50px;
+}
+
+#ibc .ibc-section {
+	margin: 0px auto 100px;
+}
+
+/* col padding */
+#ibc .col-xs-3 {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#ibc {
+margin-top:100px;
+	padding-bottom: 50px;
+}
+
+/* img thumbnail */
+#ibc .ibc-img-thumbnail {
+	background: rgba(255, 255, 255, 0.0);
+	border: 10px #ffffff solid;
+	border: 10px rgba(255,255,255,0.5) solid;
+	border-radius: 50%;
+	display: inline-block;
+	height: auto;
+	line-height: 1.42857;
+	max-width: 100%;
+	width: 100%;
+	padding: 10px;
+	transition: all 0.2s ease-in-out 0s;
+}
+
+#ibc .ibc-bg1 .ibc-img-thumbnail:hover {
+	background: rgba(255, 255, 255, 1.0);
+	border: 5px #FE0000solid;
+}
+
+#ibc .ibc-bg2 .ibc-img-thumbnail:hover {
+	background: rgba(255, 255, 255, 1.0);
+	border: 5px #FE0000solid;
+}
+
+#ibc .ibc-bg3 .ibc-img-thumbnail:hover {
+	background: rgba(255, 255, 255, 1.0);
+	border: 5px #FE0000solid;
+}
+
+#ibc .ibc-bg4 .ibc-img-thumbnail:hover {
+	background: rgba(255, 255, 255, 1.0);
+	border: 5px #FE0000solid;
+}
+
+#ibc .ibc-bg1 h3, #ibc .info-box-wrapper h1, #ibc .info-box-wrapper h2, #ibc .info-box-wrapper h3, #ibc .info-box-wrapper h4, #ibc .ibc-bg1 h1, #ibc .ibc-bg1 h2, #ibc .ibc-bg1 h3, #ibc .ibc-bg1 h4, #ibc .ibc-bg2 h1, #ibc .ibc-bg2 h2, #ibc .ibc-bg2 h3, #ibc .ibc-bg2 h4, #ibc .ibc-bg3 h1, #ibc .ibc-bg3 h2, #ibc .ibc-bg3 h3, #ibc .ibc-bg3 h4, #ibc .ibc-bg4 h1, #ibc .ibc-bg4 h2, #ibc .ibc-bg4 h3, #ibc .ibc-bg4 h4 {
+	font-family: "Roboto Condensed",sans-serif;
+	font-weight: normal;
+	line-height: 1;
+	background: #ffffff;
+	padding: 5px 10px;
+	margin: 15px 0 5px 0;
+	border-radius: 10px 10px 0px 0px;
+	text-align: center;
+}
+
+#ibc .info-box-wrapper h1 {
+	font-size: 34px;
+}
+
+#ibc .info-box-wrapper h2 {
+	font-size: 32px;
+}
+
+#ibc .info-box-wrapper h3 {
+	font-size: 30px;
+}
+
+#ibc .info-box-wrapper h4 {
+	font-size: 28px;
+}
+
+#ibc h1, #ibc h2, #ibc h3, #ibc h4 {
+	color: #FE0000;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+}
+
+#ibc .ibc-bg1 h1, #ibc .ibc-bg1 h2, #ibc .ibc-bg1 h3, #ibc .ibc-bg1 h4 {
+	color: #FE0000;
+}
+
+#ibc .ibc-bg2 h1, #ibc .ibc-bg2 h2, #ibc .ibc-bg2 h3, #ibc .ibc-bg2 h4 {
+	color: #FE0000;
+}
+
+#ibc .ibc-bg3 h1, #ibc .ibc-bg3 h2, #ibc .ibc-bg3 h3, #ibc .ibc-bg3 h4 {
+	color: #FE0000;
+}
+
+#ibc .ibc-bg4 h1, #ibc .ibc-bg4 h2, #ibc .ibc-bg4 h3, #ibc .ibc-bg4 h4 {
+	color: #FE0000;
+}
+
+/* p description */
+#ibc .info-box-wrapper p, #ibc .ibc-bg1 p, #ibc .ibc-bg2 p, #ibc .ibc-bg3 p, #ibc .ibc-bg4 p {
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1;
+	background: none;
+	padding: 5px 10px;
+	text-align: center;
+	background: #FE0000;
+	border-radius: 0px 0px 10px 10px;
+}
+
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+#ibc .carousel {
+	margin-bottom: 0px;
+	padding: 30px 40px 70px 40px;
+}
+
+/* Reposition the controls slightly */
+
+#ibc .carousel-control {
+	background-color: rgba(0, 0, 0, 0);
+	border: 0 none;
+	color: transparent;
+	font-size: 0px;
+	height: 200px;
+	width: 16px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+#ibc .article-carousel.carousel-control.right {
+	right: 0%;
+	bottom: 0%;
+	width: 40px;
+	height: 40px;
+	border: 0px #FE0000solid;
+	border-radius: 50%;
+	background: rgba(255,255,255,0.5) url('../../../graphics/ibc-right.png') center center no-repeat;
+	opacity: 1;
+	transition: all .2s ease-in-out;
+}
+
+#ibc .article-carousel.carousel-control.right:hover {
+	background: #FFA921 url('../../../graphics/ibc-right.png') center center no-repeat;
+}
+
+#ibc .article-carousel.carousel-control.left {
+	left: 0%;
+	bottom: 0%;
+	width: 40px;
+	height: 40px;
+	border: 0px #FE0000solid;
+	border-radius: 50%;
+	background: rgba(255,255,255,0.5) url('../../../graphics/ibc-left.png') center center no-repeat;
+	opacity: 1;
+	transition: all .2s ease-in-out;
+}
+
+#ibc .article-carousel.carousel-control.left:hover {
+	background: #FFA921 url('../../../graphics/ibc-left.png') center center no-repeat;
+}
+
+/* Changes the position of the indicators */
+
+#ibc .carousel-indicators {
+    left: 50%;
+    list-style: outside none none;
+    margin-left: -30%;
+    padding-left: 0;
+    position: absolute;
+    text-align: center;
+    width: 60%;
+    z-index: 15;
+	right: 50%;
+	bottom: -30px;
+	margin-right: -19px;
+}
+
+/* Changes the colour of the indicators */
+#ibc .carousel-indicators li {
+	background: #FE0000;
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	cursor: pointer;
+	display: inline-block;
+	height: 20px;
+	margin: 1px;
+	text-indent: -999px;
+	width: 20px;
+	transition: all .2s ease-in-out;
+}
+
+#ibc .carousel-indicators .active, #ibc .carousel-indicators li:hover {
+	background: #ffffff;
+	border: 2px solid #FE0000;
+	height: 20px;
+	margin: 1px;
+	width: 20px;
+}
+
+#ibc .ibc-image-wrapper {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	display: block;
+}
+
+#ibc .ibc-image-wrapper ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#ibc .ibc-circle1 {
+	position: absolute;
+	bottom: 0%;
+	right: 0;
+	color: rgba(255,255,255,0.50);
+	font-size: 300%;
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+#ibc .ibc-bg1-wrapper:hover .ibc-circle1, #ibc .ibc-bg2-wrapper:hover .ibc-circle1, #ibc .ibc-bg3-wrapper:hover .ibc-circle1, #ibc .ibc-bg4-wrapper:hover .ibc-circle1 {
+	transform: scale(0);
+	bottom: 0%;
+	right: 25%;
+	opacity: 0;
+}
+
+#ibc .ibc-circle2 {
+	position: absolute;
+	bottom: -1px;
+	right: 15%;
+	color: rgba(255,255,255,0.50);
+	font-size: 200%;
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+#ibc .ibc-bg1-wrapper:hover .ibc-circle2, #ibc .ibc-bg2-wrapper:hover .ibc-circle2, #ibc .ibc-bg3-wrapper:hover .ibc-circle2, #ibc .ibc-bg4-wrapper:hover .ibc-circle2 {
+	transform: scale(0);
+	bottom: 0%;
+	right: 25%;
+	opacity: 0;
+}
+
+#ibc .ibc-circle3 {
+	position: absolute;
+	bottom: 0%;
+	right: 25%;
+	color: rgba(255,255,255,0.50);
+	font-size: 100%;
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+#ibc .ibc-bg1-wrapper:hover .ibc-circle3, #ibc .ibc-bg2-wrapper:hover .ibc-circle3, #ibc .ibc-bg3-wrapper:hover .ibc-circle3, #ibc .ibc-bg4-wrapper:hover .ibc-circle3 {
+	transform: scale(0);
+	bottom: 0%;
+	right: 25%;
+	opacity: 0;
+}
+
+@media (max-width: 1199px) {
+#ibc .ibc-item-bottom {
+	visibility: hidden;
+	display: none;
+}
+
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 0px) and (max-width: 767px) {
+}
+
+

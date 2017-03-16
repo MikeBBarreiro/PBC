@@ -1,0 +1,21 @@
+ <?xml version="1.0" encoding="UTF-8" ?> 
+ 
+<!-- INSTRUCTIONS:
+
+1. REMOVE DEFAULT LOGO		:delete 'logo.png' between "<image>logo.png</image>"
+2. ADD TEXT WEBSITE NAME	:delete the " . " then type a website name between "<imageTitle>.</imageTitle>"
+3. ADD TEXT DESCRIPTION		:delete the " . " then type a description between "<imageDescription>.</imageDescription>"
+
+  END OF INSTRUCTIONS -->
+ 
+ 
+<gallery>
+  	<delay>120000</delay> <!-- time in milliseconds before the logo will re-animate, default is 2 minutes -->
+  	
+	<image>
+		<imageTitle>.</imageTitle> <!-- Website name when using text -->
+		<image>logo.png</image>
+		<imageDescription>.</imageDescription> <!-- Website descripton when using text -->
+		<imageTransition>Squeeze</imageTransition>
+	</image>
+</gallery>

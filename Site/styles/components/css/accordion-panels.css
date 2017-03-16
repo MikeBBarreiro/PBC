@@ -1,0 +1,58 @@
+﻿/* -----------------------------------------
+:: ACCORDION PANELS
+----------------------------------------- */
+/* panel heading */
+.panel-heading h4 {
+	color: #ffffff;
+	font-size: 20px;
+	background: none;
+	padding: 3px 0 7px 0px;
+}
+
+/* icons */
+h4.panel-title a i {
+	background: #ffffff;
+	width: 30px;
+	height: 30px;
+	padding-top: 7px;
+}
+
+h4.panel-title a i.fa {
+	color: #F4A105;
+	margin: 3px;
+	text-shadow: 0px 0px 0 rgba(255, 255, 255, 0.0);
+	border-radius: 50%;
+}
+
+/*panel content */
+.panel-body {
+	color: #0049A7;
+	font-size: 13px;
+	font-family: inherit;
+	padding: 0px;
+	font-weight: normal;
+	letter-spacing: normal;
+	padding: 15px;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border-top: 10px solid #0049A7;
+}
+
+/*panel heading open */
+.panel-default > .panel-heading {
+	color: #ffffff;
+	font-size: 20px;
+	background-color: #056CF4;
+	border-color: transparent;
+	padding: 0px 0px 0px 0px;
+}
+
+.panel {
+	background-color: rgba(255,255,255,0.5);
+	border: 0px solid transparent;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.00);
+	margin-bottom: 20px;
+}
+

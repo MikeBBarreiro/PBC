@@ -1,0 +1,28 @@
+ <?xml version="1.0" encoding="UTF-8" ?> 
+ 
+<!-- INSTRUCTIONS:
+
+1. REMOVE IMAGE				:remove '../images/themed_background/intro_bg.jpg' between <image> and </image>
+2. ADD IMAGE				:copy the code below, paste AFTER the 1st background image, CHANGE the XXXXX.jpg to actual image name
+
+	<image>
+		<image>../images/themed_background/XXXXX.JPG</image>
+		<imageTransition>Blinds</imageTransition>
+	</image>
+
+  END OF INSTRUCTIONS -->
+
+ 
+<gallery>
+  	<delay>100000</delay> <!-- time in milliseconds to display each picture / 100000 = 100 seconds -->
+
+<!-- 1st background image -->
+	<image>
+		<image>../images/themed_background/intro_bg.jpg</image>
+		<imageTransition>Blinds</imageTransition>
+	</image>
+	
+<!-- paste additional images below -->
+
+
+</gallery>

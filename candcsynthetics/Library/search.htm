@@ -1,0 +1,32 @@
+﻿
+<body>
+
+<!-- Google CSE Search Box Begin222s -->
+<script type="text/javascript">
+
+// Google Internal Site Search script- By JavaScriptKit.com (http://www.javascriptkit.com)
+// For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
+// This notice must stay intact for use
+
+//Enter domain of site to search.
+var domainroot="candcsynthetics.com"
+
+function Gsitesearch(curobj){
+curobj.q.value="site:"+domainroot+" "+curobj.qfront.value
+}
+
+function submitSearchForm() {
+  var myForm = document.getElementById("searchForm");
+  
+  Gsitesearch(myForm);
+  myForm.submit();
+}
+</script>
+<form id="searchForm" action="http://www.google.com/search" method="get" onsubmit="Gsitesearch(this)">
+<div class="search-container"><input name="q" type="hidden" />
+<input name="qfront"  class="searchbox" type="text" style="width: 100px" /> 
+<a href="javascript:submitSearchForm()"><img alt="" class="search" src="../Site/graphics/elements/search.gif" width="75" height="20" /></a>
+</div></form>
+
+</body>
+

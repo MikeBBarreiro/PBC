@@ -1,0 +1,73 @@
+﻿/* -----------------------------------------
+:: HOME PAGE
+----------------------------------------- */
+/* -----------------------------------------
+:: HEADER
+----------------------------------------- */
+.header {
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	z-index: 10001;
+}
+
+/* -----------------------------------------
+:: WEBSITE NAME
+----------------------------------------- */
+.website-name-wrapper {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	width: 420px;
+	text-align: center;
+	padding: 10px 10px 0px 0px;
+}
+/* -----------------------------------------
+:: MENU TOP
+----------------------------------------- */
+#menu {
+	margin-right: 0px;
+	background:url('../../graphics/menu-bg.png') left top no-repeat;
+	height:100px;
+	padding-left:70px;
+	padding-right:10px;
+}
+/* -----------------------------------------
+:: GOOGLE SEARCH
+----------------------------------------- */
+.google-search {
+	position: absolute;
+	top: 8px;
+	right: 20px;
+	z-index: 1000;
+	width: 100px;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	z-index: 1000;
+}
+/* -----------------------------------------
+:: SOCIAL ICONS
+----------------------------------------- */
+.header.social-icons {
+  display:none;
+}
+/* icon color - background */
+.social-icon-fontawesome ul li a {
+	color: #ffffff;
+	width: 65px;
+	height: 65px;
+	padding: 28px 15px 22px 15px;
+	background: url('../../graphics/social-icon-bg.png') center 0px no-repeat;
+	transition: all .5s ease-in-out;
+}
+
+.social-icon-fontawesome ul li a:hover {
+	transition: all .5s ease-in-out;
+	background: url('../../graphics/social-icon-bg.png') center -100px no-repeat;
+}
+

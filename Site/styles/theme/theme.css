@@ -1,0 +1,530 @@
+﻿/* -----------------------------------------
+:: THEME.CSS
+----------------------------------------- */
+/* -----------------------------------------
+:: BODY
+----------------------------------------- */
+body {
+	background: url('../../graphics/shadow-left.png') left top repeat-y, url('../../graphics/shadow-right.png') right top repeat-y, url('../../graphics/body-bg.jpg');
+}
+
+/* -----------------------------------------
+:: HEADER
+----------------------------------------- */
+.header {
+	top: 0;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	z-index: 10001;
+}
+
+/* -----------------------------------------
+:: FOOTER
+----------------------------------------- */
+.footer-bg {
+	background: #020145;
+	text-align: center;
+	padding-top: 30px;
+	color: #ffffff;
+}
+
+.footer-website-name h1, .footer-website-name h2, .footer-website-name h3, .footer-website-name h4, .footer-website-name h5, .footer-website-name h6 {
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.footer-tagline h1, .footer-tagline h2, .footer-tagline h3, .footer-tagline h4, .footer-tagline h5, .footer-tagline h6 {
+	font-size: 15px;
+	color: #ffffff;
+}
+
+/* -----------------------------------------
+:: COPYRIGHT
+----------------------------------------- */
+.copyright {
+	background: #FE0000;
+}
+
+/* -----------------------------------------
+:: SECTIONS
+----------------------------------------- */
+.section1 {
+	background: url('../../themed-images/backgrounds/section1.jpg') 50% 0 no-repeat fixed;
+	position: relative;
+	margin: 0 auto;
+}
+
+.section2 {
+	background: url('../../themed-images/backgrounds/section2.jpg') no-repeat fixed 50% 0;
+	position: relative;
+}
+
+.section3 {
+	background: url('../../themed-images/backgrounds/section3.jpg') no-repeat fixed 50% 0;
+	position: relative;
+}
+
+.section4 {
+	background: url('../../themed-images/backgrounds/section4.jpg') no-repeat fixed 50% 0;
+	position: relative;
+}
+
+.section5 {
+	background: url('../../themed-images/backgrounds/section5.jpg') no-repeat fixed 50% 0;
+	position: relative;
+}
+
+.section6 {
+	background: url('../../themed-images/backgrounds/section6.jpg') no-repeat fixed 50% 0;
+	position: relative;
+}
+
+.team {
+	background: url('../../themed-images/backgrounds/team-bg.png') no-repeat fixed 50% 0;
+	position: relative;
+}
+
+.mockup {
+	background: #FEFEFE url('../../themed-images/backgrounds/mockup-bg.jpg') no-repeat fixed 50% 0;
+	position: relative;
+}
+
+/* -----------------------------------------
+:: PARALLAX
+----------------------------------------- */
+.parallax1 {
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.parallax2 {
+	background-attachment: fixed;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.parallax3 {
+	background-attachment: fixed;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+.parallax4 {
+	background-attachment: fixed;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+.parallax5 {
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+/* -----------------------------------------
+:: TINTS
+----------------------------------------- */
+.tint1 {
+	background: rgba(0,0,0,0.65);/* med blue */
+}
+
+.tint2 {
+	background: rgba(0,175,238,0.75);/* light blue */
+}
+
+.tint3 {
+	background: rgba(0,72,98,0.75);/* dark blue */
+}
+
+.tint4 {
+	background: rgba(0,38,53,0.75);/* very dark blue */
+}
+
+.tint5 {
+	background: rgba(0,0,0,0.75);/* black */
+}
+
+.tint6 {
+	background: rgba(255,255,255,0.75);/* white */
+}
+
+/* -----------------------------------------
+:: BORDERS
+----------------------------------------- */
+.border-mb {
+	border-top: 5px rgba(0,119,162,0.25) solid;
+	border-bottom: 5px rgba(0,119,162,0.25) solid;/* med blue */
+}
+
+.border-lb {
+	border-top: 5px rgba(0,175,238,0.25) solid;
+	border-bottom: 5px rgba(0,175,238,0.25) solid;/* light blue */
+}
+
+.border-db {
+	border-top: 5px rgba(0,72,98,0.25) solid;
+	border-bottom: 5px rgba(0,72,98,0.25) solid;/* dark blue */
+}
+
+.border-vdb {
+	border-top: 5px rgba(0,38,53,0.25) solid;
+	border-bottom: 5px rgba(0,38,53,0.25) solid;/* very dark blue */
+}
+
+.border-bl {
+	border-top: 5px rgba(0,0,0,0.25) solid;
+	border-bottom: 5px rgba(0,0,0,0.25) solid;/* black */
+}
+
+.border-wh {
+	border-top: 5px rgba(255,255,255,0.25) solid;
+	border-bottom: 5px rgba(255,255,255,0.25) solid;/* white */
+}
+
+/* -----------------------------------------
+:: DIVIDERS
+----------------------------------------- */
+.divider1 {
+	background: url('../../graphics/divider1.png') right center no-repeat;
+	width: 100%;
+	height: 300px;
+	position: relative;
+}
+
+/* -----------------------------------------
+:: CONTENT CENTER 
+----------------------------------------- */
+.content-center {
+}
+
+.content-center:before {
+	content: ' ';
+	display: block;
+	width: 253px;
+	height: 32px;
+	position: absolute;
+	top: -32px;
+	right: 20px;
+	background-repeat: no-repeat;
+}
+
+.content-center:after {
+	content: ' ';
+	display: block;
+	width: 176px;
+	height: 23px;
+	position: absolute;
+	bottom: -23px;
+	left: 15px;
+	background-repeat: no-repeat;
+}
+
+/* -----------------------------------------
+:: CONTENT CENTER DARK 
+----------------------------------------- */
+.content-center-dark {
+	background: #00B6F1;
+	border-radius: 0px;
+	padding: 25px 20px;
+	position: relative;
+	margin: 50px 20px 80px;
+}
+
+.content-center-dark:before {
+	content: ' ';
+	display: block;
+	width: 253px;
+	height: 32px;
+	position: absolute;
+	top: -32px;
+	right: 20px;
+	background-repeat: no-repeat;
+}
+
+.content-center-dark:after {
+	content: ' ';
+	display: block;
+	width: 176px;
+	height: 23px;
+	position: absolute;
+	bottom: -23px;
+	left: 15px;
+	background-repeat: no-repeat;
+}
+
+body .content-center-dark, .content-center-dark h1, .content-center-dark h2, .content-center-dark h3, .content-center-dark h4, .content-center-dark h5, .content-center-dark h6, .content-center-dark h1.heading4, .content-center-dark h2.heading4, .content-center-dark h3.heading4, .content-center-dark h4.heading4, .content-center-dark h5.heading4, .content-center-dark h6.heading4 {
+	color: #E7F8FF;
+}
+
+.content-center-dark a {
+	color: #ffffff;
+}
+
+.content-center-dark a.btn {
+	color: #007ca4;
+}
+
+.content-center-dark .btn-link {
+	background: #E7F8FF;
+}
+
+.content-center-dark a:hover, .content-center-dark a:focus {
+	color: #E7F8FF;
+}
+
+.content-center-dark .form-control, .content-center-dark .well, .content-center-dark .img-thumbnail, .content-center-dark .thumbnail {
+	border-color: #007ca4;
+}
+
+/* -----------------------------------------
+:: CONTENT DARK no clouds
+----------------------------------------- */
+.content-dark {
+	background: #00B6F1;
+	border-radius: 0px;
+	padding: 25px 20px;
+	position: relative;
+	margin: 0px 20px 80px;
+}
+
+body .content-dark, .content-dark h1, .content-dark h2, .content-dark h3, .content-dark h4, .content-dark h5, .content-dark h6, .content-dark h1.heading4, .content-dark h2.heading4, .content-dark h3.heading4, .content-dark h4.heading4, .content-dark h5.heading4, .content-dark h6.heading4 {
+	color: #E7F8FF;
+}
+
+.content-dark a {
+	color: #ffffff;
+}
+
+.content-dark a.btn {
+	color: #007ca4;
+}
+
+.content-dark .btn-link {
+	background: #E7F8FF;
+}
+
+.content-dark a:hover, .content-dark a:focus {
+	color: #E7F8FF;
+}
+
+.content-dark .form-control, .content-dark .well, .content-dark .img-thumbnail, .content-dark .thumbnail {
+	border-color: #007ca4;
+}
+
+/* -----------------------------------------
+:: CONTENT DARK no clouds faded background
+----------------------------------------- */
+.content-dark.faded {
+	background: #00B6F1;
+	background: rgba(0,182,241,0.50);
+	border-radius: 0px;
+	padding: 25px 20px;
+	position: relative;
+	margin: 0px 20px 80px;
+}
+
+/* -----------------------------------------
+:: CONTENT LIGHT no clouds
+----------------------------------------- */
+.content-light {
+	background: rgba(255,255,255,0.75);
+	border-radius: 0px;
+	padding: 25px 20px;
+	position: relative;
+	margin: 0px 20px 80px;
+}
+
+/* -----------------------------------------
+:: CONTENT LIGHT no clouds faded background
+----------------------------------------- */
+.content-light.faded {
+	background: rgba(255,255,255,0.50);
+	border-radius: 0px;
+	padding: 25px 20px;
+	position: relative;
+	margin: 0px 20px 80px;
+}
+
+/* -----------------------------------------
+:: CONTENT LEFT with clouds
+----------------------------------------- */
+.content-left {
+	background: rgba(0,0,0,0.3);
+	border-radius: 0px;
+	padding: 25px 20px;
+	position: relative;
+	margin: 0px 0px 50px;
+}
+
+.content-left:before {
+	content: ' ';
+	display: block;
+	width: 176px;
+	height: 30px;
+	position: absolute;
+	top: -30px;
+	left: 20px;
+	background-repeat: no-repeat;
+}
+
+.content-left:after {
+	content: ' ';
+	display: block;
+	width: 176px;
+	height: 23px;
+	position: absolute;
+	bottom: -23px;
+	left: 15px;
+	background-repeat: no-repeat;
+}
+
+/* -----------------------------------------
+:: CONTENT LEFT DARK with clouds
+----------------------------------------- */
+.content-left-dark {
+	background: #00B6F1;
+	border-radius: 0px;
+	padding: 25px 20px;
+	position: relative;
+	margin: 50px auto 50px;
+}
+
+.content-left-dark:before {
+	content: ' ';
+	display: block;
+	width: 176px;
+	height: 30px;
+	position: absolute;
+	top: -30px;
+	left: 20px;
+	background-repeat: no-repeat;
+}
+
+.content-left-dark:after {
+	content: ' ';
+	display: block;
+	width: 176px;
+	height: 23px;
+	position: absolute;
+	bottom: -23px;
+	left: 15px;
+	background-repeat: no-repeat;
+}
+
+body .content-left-dark, .content-left-dark h1, .content-left-dark h2, .content-left-dark h3, .content-left-dark h4, .content-left-dark h5, .content-left-dark h6, .content-left-dark h1.heading4, .content-left-dark h2.heading4, .content-left-dark h3.heading4, .content-left-dark h4.heading4, .content-left-dark h5.heading4, .content-left-dark h6.heading4 {
+	color: #E7F8FF;
+}
+
+.content-left-dark a {
+	color: #ffffff;
+}
+
+.content-left-dark a.btn {
+	color: #007ca4;
+}
+
+.content-left-dark .btn-link {
+	background: #E7F8FF;
+}
+
+.content-left-dark a:hover, .content-left-dark a:focus {
+	color: #E7F8FF;
+}
+
+.content-left-dark .form-control, .content-left-dark .well, .content-left-dark .img-thumbnail, .content-left-dark .thumbnail {
+	border-color: #007ca4;
+}
+
+/* -----------------------------------------
+:: CONTENT RIGHT with clouds
+----------------------------------------- */
+.content-right {
+	background: rgba(0,0,0,0.3);
+	border-radius: 0px;
+	padding: 25px 20px;
+	position: relative;
+	margin: 0px 0px 50px 0px;
+}
+
+.content-right:before {
+	content: ' ';
+	display: block;
+	width: 176px;
+	height: 30px;
+	position: absolute;
+	top: -30px;
+	right: 20px;
+	background-repeat: no-repeat;
+}
+
+.content-right:after {
+	content: ' ';
+	display: block;
+	width: 176px;
+	height: 23px;
+	position: absolute;
+	bottom: -23px;
+	left: 15px;
+	background-repeat: no-repeat;
+}
+
+/* -----------------------------------------
+:: CONTENT RIGHT DARK with clouds
+----------------------------------------- */
+.content-right-dark {
+	background: #00B6F1;
+	border-radius: 0px;
+	padding: 25px 20px;
+	position: relative;
+	margin: 50px auto 50px;
+}
+
+.content-right-dark:before {
+	content: ' ';
+	display: block;
+	width: 176px;
+	height: 30px;
+	position: absolute;
+	top: -30px;
+	right: 20px;
+	background-repeat: no-repeat;
+}
+
+.content-right-dark:after {
+	content: ' ';
+	display: block;
+	width: 176px;
+	height: 23px;
+	position: absolute;
+	bottom: -23px;
+	left: 15px;
+	background-repeat: no-repeat;
+}
+
+body .content-right-dark, .content-right-dark h1, .content-right-dark h2, .content-right-dark h3, .content-right-dark h4, .content-right-dark h5, .content-right-dark h6, .content-right-dark h1.heading4, .content-right-dark h2.heading4, .content-right-dark h3.heading4, .content-right-dark h4.heading4, .content-right-dark h5.heading4, .content-right-dark h6.heading4 {
+	color: #E7F8FF;
+}
+
+.content-right-dark a {
+	color: #ffffff;
+}
+
+.content-right-dark a.btn {
+	color: #007ca4;
+}
+
+.content-right-dark .btn-link {
+	background: #E7F8FF;
+}
+
+.content-right-dark a:hover, .content-right-dark a:focus {
+	color: #E7F8FF;
+}
+
+.content-right-dark .form-control, .content-right-dark .well, .content-right-dark .img-thumbnail, .content-right-dark .thumbnail {
+	border-color: #007ca4;
+}
+

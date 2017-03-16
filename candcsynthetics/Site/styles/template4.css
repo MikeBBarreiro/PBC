@@ -1,0 +1,63 @@
+﻿
+/* editables */
+
+html 			{margin: 0px ; background-image: url("../graphics/background/html_bg.jpg");}
+body 			{margin: 0px ; background-image: url("../graphics/background/body_bg.jpg"); background-position:top center; background-repeat:repeat-x;}
+
+
+#main			{width:100%; height:500px; vertical-align:top; margin-left:auto; margin-right:auto;}
+
+#header			{width:100%; height:302px;}
+
+	.header1			{background-image:url('../graphics/template/template_h1.jpg'); background-position:top left; background-repeat:no-repeat;}
+	.header2			{background-image:url('../graphics/template/template_h2.jpg'); background-position:left top; background-repeat:repeat-x;}
+	.header3			{background-image:url('../graphics/template/template_h3.jpg'); background-position:center top; background-repeat:no-repeat;}
+	.header4			{background-image:url('../graphics/template/template_h4.jpg'); background-position:right top; background-repeat:no-repeat;}
+
+.header_wrapper		{width:100%; height:302px; vertical-align:top; position:relative;}
+
+
+#content		{width:100%; vertical-align:top; text-align:left; background-image:url('../graphics/template/template_c0.jpg');}
+		
+	.layout2c2		{background-image:url('../graphics/template/template_c2.jpg'); background-position:left top; background-repeat:repeat-x;vertical-align:top;}
+	.layout2c6		{background-image:url('../graphics/template/template_c6.jpg'); background-position:left bottom; background-repeat:repeat-x;}
+	.layout2c4		{background-image:url('../graphics/template/template_c4.jpg'); background-position:right top; background-repeat:repeat-y;}
+	.layout2c8		{background-image:url('../graphics/template/template_c8.jpg'); background-position:left top; background-repeat:repeat-y;}
+	.layout2c5		{background-image:url('../graphics/template/template_c5.jpg'); background-position:right bottom; background-repeat:no-repeat;}
+	.layout2c7		{background-image:url('../graphics/template/template_c7.jpg'); background-position:left bottom; background-repeat:no-repeat;}
+	.layout2c3		{background-image:url('../graphics/template/template_c3.jpg'); background-position:right top; background-repeat:no-repeat;vertical-align:top;}
+	.layout2c1		{background-image:url('../graphics/template/template_c1.jpg'); background-position:left top; background-repeat:no-repeat;vertical-align:top;}
+	
+.content_wrapper	{width:100%; height:400px; border:0px; border-collapse:collapse; vertical-align:top; margin:0px; padding:0px;}
+	
+/* 4 equal columns */
+	
+	.left_padding		{width:120px; 	vertical-align:top;}/* padding = 120 pixels total */
+	.content1			{width:; 		vertical-align:top; padding: 45px 5px 0px 0px; margin:0px;}
+	.content2			{width:; 		vertical-align:top; padding: 45px 5px 0px 0px; margin:0px;}
+	.content3			{width:;     	vertical-align:top; padding: 45px 5px 0px 0px;margin:0px;}
+	.content4			{width:; 		vertical-align:top; padding: 45px 0px 0px 0px; margin:0px;}
+	.content5			{width:5px; 	vertical-align:top; padding: 45px 0px 0px 0px;margin:0px;}
+	.right_padding		{width:115px; 	vertical-align:top;}/* padding = 120 pixels total */
+
+
+#footer			{width:100%; vertical-align:top;text-align:left; background-image:url('../graphics/template/template_f0.jpg');}
+		
+	.layout2f2		{background-image:url('../graphics/template/template_f2.jpg'); background-position:left top; background-repeat:repeat-x;vertical-align:top;}
+	.layout2f6		{background-image:url('../graphics/template/template_f6.jpg'); background-position:left bottom; background-repeat:repeat-x;}
+	.layout2f4		{background-image:url('../graphics/template/template_f4.jpg'); background-position:right top; background-repeat:repeat-y;}
+	.layout2f8		{background-image:url('../graphics/template/template_f8.jpg'); background-position:left top; background-repeat:repeat-y;}
+	.layout2f5		{background-image:url('../graphics/template/template_f5.jpg'); background-position:right bottom; background-repeat:no-repeat;}
+	.layout2f7		{background-image:url('../graphics/template/template_f7.jpg'); background-position:left bottom; background-repeat:no-repeat;}
+	.layout2f3		{background-image:url('../graphics/template/template_f3.jpg'); background-position:right top; background-repeat:no-repeat;vertical-align:top;}
+	.layout2f1		{background-image:url('../graphics/template/template_f1.jpg'); background-position:left top; background-repeat:no-repeat;vertical-align:top;}
+	
+.footer_wrapper		{width:100%; height:288px; border:0px; border-collapse:collapse; vertical-align:top; margin:0px;}
+
+	.footer1			{width:120px; 	vertical-align:top;	padding: 0px 0px 0px 0px; margin:0px;}
+	.footer2			{ 		vertical-align:top; padding: 0px 0px 0px 0px; margin:0px; text-align:center;}
+	.footer3			{width:120px; 	vertical-align:top;	padding: 0px 0px 0px 0px; margin:0px;}
+
+
+
+

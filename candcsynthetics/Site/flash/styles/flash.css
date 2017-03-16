@@ -1,0 +1,95 @@
+﻿/* welcome message  / text for replacing logo graphic */
+myWelcome {
+text-align:center;
+color:#ffffff; 
+font-family:Times New Roman;
+font-size: 30px;  
+font-weight: bold;
+margin-left:0; 
+margin-right:0;
+letter-spacing:0;
+text-indent:0;
+display:block;
+font-style: italic;
+text-decoration: none;
+
+}
+/* welcome comment  / text for replacing logo symbol */
+myComment {
+text-align:center;
+color:#ff0000; 
+font-family: Arial,Tahoma; 
+font-size: 14px;  
+font-weight: bold;
+margin-left:0; 
+margin-right:0;
+letter-spacing:0;
+text-indent:0px;
+display:block;
+font-style: normal;
+text-decoration: none;
+}
+
+/* flash gallery title */
+myTitle {
+text-align:left;
+color:#838383; 
+font-family:Arial, Tahoma, Times New Roman;
+font-size: 24px;  
+font-weight: bold;
+margin-left:0; 
+margin-right:0;
+letter-spacing:0;
+text-indent:0;
+display:block;
+font-style: italic;
+text-decoration: none;
+} 
+
+/* flash gallery description */
+myDesc {
+text-align:left;
+color:#cccccc; 
+font-family: Arial,Tahoma; 
+font-size: 14px;  
+font-weight: bold;
+margin-left:0; 
+margin-right:0;
+letter-spacing:0;
+text-indent:0px;
+display:block;
+font-style: normal;
+text-decoration: none;
+}
+
+/* flash button title */
+buttonTitle {
+text-align:center;
+color:#cccccc; 
+font-family: Tahoma, Times,Arial,Tahoma; 
+font-size: 14px;  
+font-weight: bold; 
+margin-left:0; 
+margin-right:0;
+letter-spacing:0px;
+text-indent:35px;
+display:block;
+font-style: italic;
+text-decoration: none;
+}
+
+/* flash button description */
+buttonDescription {
+text-align:left;
+color:#999999; 
+font-family: Tahoma,Times,Arial,Tahoma; 
+font-size: 10px;  
+font-weight: normal; 
+margin-left:0; 
+margin-right:0;
+letter-spacing:0;
+text-indent:5px;
+display:block;
+font-style: normal;
+text-decoration: none;
+}

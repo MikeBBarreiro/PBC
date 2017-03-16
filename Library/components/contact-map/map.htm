@@ -1,0 +1,98 @@
+
+	<body>
+
+
+        <!--
+            You need to include this script on any page that has a Google Map.
+            When using Google Maps on your own site you MUST signup for your own API key at:
+                https://developers.google.com/maps/documentation/javascript/tutorial#api_key
+            After your sign up replace the key in the URL below or paste in the new script tag that Google provides.
+        -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js AIzaSyCR0BuJXxCUs2Yj9-PSYg8lGGaB-oS3dVk ;sensor=false"></script>
+        <script type="text/javascript" src="js/map.js"></script>
+
+
+        <!-- The element that will contain our Google Map. This is used in both the Javascript and CSS above. -->
+
+        <div class="map-wrapper">
+        <div id="map"></div> 
+
+<div class="map-form">
+
+		<form method="post" action="/process_form.php" class="box-aside" role="form">
+
+			<div class="container">
+
+
+				<div class="row">
+				<div class="col-sm-6">
+
+				<!-- CONTENT START -->
+				<div class="content-light">
+				<article class="content">
+
+				<div class="form-group">
+					<label for="exampleInputEmail1">First name:</label>
+					<input id="exampleInputEmail1" class="form-control" name="First_Name" placeholder="First Name" type="text">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputEmail2">Last name:</label>
+					<input id="exampleInputEmail2" class="form-control" name="Last_Name" placeholder="Last name" type="text">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputEmail3">Email address</label>
+					<input id="exampleInputEmail3" class="form-control" name="Email" placeholder="Enter email" type="email">
+				</div>
+				<div class="form-group">
+					<label>Subject</label>
+					<select class="form-control" name="Subject">
+					<option>Customer Support</option>
+					<option>Sales Marketing</option>
+					<option>Job Opportunities</option>
+					<option>Product Support</option>
+					<option>Suggestions</option>
+					</select> </div>
+				<button class="btn btn-default margin-bottom-9" type="submit">Submit</button>
+
+				</article>
+				</div>
+				<!--/CONTENT END -->
+
+				</div>
+
+
+
+				<div class="col-sm-6">
+
+				<!-- CONTENT START -->
+				<div class="content-light hidden-xs">
+				<article class="content">
+
+				<div class="form-group">
+					<label>Message:</label>
+					<textarea class="form-control" name="INFO__message" rows="12"></textarea>
+				</div>
+
+				</article>
+				</div>
+				<!--/CONTENT END -->
+
+				</div>
+       		 </div>
+			</div>
+
+		</form>
+		        
+
+
+        </div>
+        </div>
+
+
+
+<!--
+<link rel='stylesheet' property='stylesheet' id='contact-map-css'  href='../../../Site/styles/components/css/contact-map.css' type='text/css' media='all' />
+-->
+
+
+    </body>

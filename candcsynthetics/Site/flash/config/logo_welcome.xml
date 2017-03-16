@@ -1,0 +1,20 @@
+ <?xml version="1.0" encoding="UTF-8" ?> 
+ 
+<!-- INSTRUCTIONS:
+
+1. REMOVE DEFAULT LOGO		:delete 'logo.png' between "<image>logo.png</image>"
+1. CHANGE FIRST MESSAGE		:delete the " to our website " then type a new message between "<imageTitle>.</imageTitle>"
+3. CHANGE SECOND MESSAGE	:delete the " Come on in, " then type a new message between "<imageDescription>.</imageDescription>"
+
+  END OF INSTRUCTIONS -->
+ 
+<gallery>
+  	<delay>120000</delay> <!-- time in milliseconds before the logo will re-animate, default is 2 minutes -->
+  	
+	<image>
+		<imageTitle>Welcome to C & C Synthetics</imageTitle> <!-- change first message line here -->
+		<image>logo.png</image>
+		<imageDescription>Home of the best lubricants</imageDescription> <!-- change second message line here -->
+		<imageTransition>Squeeze</imageTransition>
+	</image>
+</gallery>

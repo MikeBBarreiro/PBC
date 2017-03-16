@@ -1,0 +1,331 @@
+﻿/* -----------------------------------------
+:: MOBILE to TABLE 0-1025PX START
+----------------------------------------- */
+@media (min-width: 0px) and (max-width: 1025px) {
+/* -----------------------------------------
+:: CAROUSEL SLIDER SIDEBAR
+----------------------------------------- */
+.cs_slider_sidebar, .cs_slider_sidebar_close, .cs_slider_sidebar_open {
+	visibility: hidden;
+	display: none;
+}
+
+/* -----------------------------------------
+:: SECTIONS
+----------------------------------------- */
+.section1 {
+	background: url('../../themed-images/backgrounds/section1.jpg') 50% 0 no-repeat scroll;
+	position: relative;
+	margin: 0 auto;
+}
+
+.section2 {
+	background: url('../../themed-images/backgrounds/section2.jpg') no-repeat scroll 50% 0;
+	position: relative;
+}
+
+.section3 {
+	background: url('../../themed-images/backgrounds/section3.jpg') no-repeat scroll 50% 0;
+	position: relative;
+}
+
+.section4 {
+	background: url('../../themed-images/backgrounds/section4.jpg') no-repeat scroll 50% 0;
+	position: relative;
+}
+
+.section5 {
+	background: url('../../themed-images/backgrounds/section5.jpg') no-repeat scroll 50% 0;
+	position: relative;
+}
+
+.section6 {
+	background: url('../../themed-images/backgrounds/section6.jpg') no-repeat scroll 50% 0;
+	position: relative;
+}
+
+.team {
+	background: url('../../themed-images/backgrounds/team-bg.png') no-repeat scroll 50% 0;
+	position: relative;
+}
+
+.mockup {
+	background: #FEFEFE url('../../themed-images/backgrounds/mockup-bg.jpg') no-repeat scroll 50% 0;
+	position: relative;
+}
+
+
+/* -----------------------------------------
+:: PARALLAX
+----------------------------------------- */
+.parallax1 {
+	background-attachment: scroll;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.parallax2 {
+	background-attachment: scroll;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.parallax3 {
+	background-attachment: scroll;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+.parallax4 {
+	background-attachment: scroll;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+.parallax5 {
+	background-attachment: scroll;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+/* -----------------------------------------
+:: INFO BOX CAROUSEL
+----------------------------------------- */
+#ibc .article-carousel.carousel-control.right {
+	top: -30px;
+}
+
+#ibc .article-carousel.carousel-control.left {
+	top: -30px;
+}
+
+#carousel-slider .carousel-caption {
+	left: 22%;
+	right: 22%;
+	z-index: 10;
+}
+
+#carousel-slider .carousel-caption h1 {
+	font-size: 20px;
+}
+
+#carousel-slider .carousel-caption h2 {
+	font-size: 18px;
+}
+
+#carousel-slider .carousel-caption p {
+	font-size: 14px;
+}
+
+}
+/* -----------------------------------------
+:: TABLET LANDSCAPE 769PX-1024PX
+----------------------------------------- */
+@media (min-width: 0px) and (max-width: 1024px) {
+
+
+div.fullscreen-slider .social-icons {
+	left: 20px;
+}
+
+}
+
+/* -----------------------------------------
+:: TABLET PORTRAIT 481PX-768PX 
+----------------------------------------- */
+@media (min-width: 0px) and (max-width: 992px) {
+.header {
+	background: rgba(0,0,0,0.75);
+	height: auto;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	width: 100%;
+	z-index: 10001;
+}
+.sl-shadow {
+	background:none;
+}
+.website-name-wrapper {
+	border-right: 0px solid #ffffff;
+	height: auto;
+	min-height: 40px;
+	left: 0;
+	padding: 10px 10px 0 0;
+	position: relative;
+	top: 0;
+	clear: both;
+	width:100%;
+}
+.website-name-wrapper .carousel-highlight1 {
+    color: #efefef;
+}
+.website-name p, .website-name a, .website-name h1, .website-name h2, .website-name h3, .website-name h4, .website-name h5, .website-name h6 {
+    color: #efefef;
+}
+
+.website-name {
+	text-align: center;
+}
+
+.tagline {
+	text-align: center;
+}
+.google-search {
+	position: relative;
+	right: 0;
+	top: 0px;
+	transition: all 0.5s ease 0s;
+	width: 100%;
+	z-index: 1000;
+}
+
+/* hover animation */
+.google-search:hover {
+	width: 100%;
+}
+/* search box */
+.gsc-input-box {
+	background: rgba(0,0,0,0.75)!important;
+	border: 5px solid #FE0000!important;/*was F37403*/
+	height: 50px!important;
+	border-radius: 0px;
+	position: relative;
+	margin-top: -1px;
+}
+#menu {
+	background: rgba(0,0,0,0.75);
+    height: auto;
+    margin-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+.navbar-toggle {
+	width: 100%;
+	float: none;
+	margin-bottom: 5px;
+	margin-right: 0%;
+	margin-left: 0%;
+	position: relative;
+}
+
+input, button, select, textarea {
+	color: #ffffff;
+	font-size: 16px;
+}
+
+.navbar {
+	border: 1px solid transparent;
+	margin-bottom: 10px;
+	min-height: 50px;
+	position: relative;
+}
+
+.navbar-nav > li > a {
+	margin: 0 0px;
+}
+
+.navbar-nav {
+	float: left;
+	width: 100%;
+}
+.nav > li > a {
+    padding: 4px 0px 4px 30px;
+}
+div.fullscreen-slider div.divider1 {
+	display:none;
+}
+.sl-content-top {
+display:none;
+}
+
+.sl-content-top:before {
+display:none;
+}
+
+.sl-content-bottom {
+display:none;
+}
+.sl-slide-title {
+	font-size: 45px;
+	text-align: left;
+	width: 100%;
+	line-height: 1;
+	margin-left: 10px;
+	margin-top:200px;
+}
+.sl-description {
+	line-height: 1;
+	text-align: left;
+	margin-left: 10px;
+	width: 100%;
+	padding-left: 0px;
+}
+.fs-wrapper .sl-slider cite {
+	font-size: 10px;
+
+	line-height: 2;
+	text-align: left;
+	margin-left: 10px;
+	width: 100%;
+	padding-left: 0;
+}
+
+.nav-arrows span {
+	top: 450px;
+}
+
+.sl-content-bottom:before {
+display:none;
+}
+
+.social-icons {
+	position: absolute;
+	top: 100px;
+	left: 5px;
+	z-index: 1000;
+	display:none;
+}
+
+.social-icons {
+	display:none!important;
+}
+}
+/* -----------------------------------------
+:: MOBILE 0PX-480PX 
+----------------------------------------- */
+@media (min-width: 0px) and (max-width: 480px) {
+.sl-slide-title {
+	font-size: 25px;
+}
+
+}
+
+/* -----------------------------------------
+:: MOBILE TESTING
+----------------------------------------- */
+.breakpoint-xs {
+	color: #FF0066;
+}
+
+.breakpoint-sm {
+	color: #FF3300;
+}
+
+.breakpoint-md {
+	color: #000066;
+}
+
+.breakpoint-lg {
+	color: #000000;
+}
+
+.breakpoints {
+	visibility: hidden;
+}
+

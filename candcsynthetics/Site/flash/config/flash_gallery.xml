@@ -1,0 +1,66 @@
+ <?xml version="1.0" encoding="UTF-8" ?> 
+<gallery>
+
+<!-- INSTRUCTIONS:
+
+1. REMOVE AN IMAGE			:select the block of code "<image> to </image>" and delete
+2. CHANGE TITLE				:change the 'text' between "<imageTitle> and </imageTitle>"
+3. CHANGE IMAGE				:change the 'image_XX.jpg' between "<image> and </image>"
+4. ADD AN IMAGE				:copy the code below, paste between existing icon, or at bottom of page
+5. CHANGE DISPLAY TIME		:change the <delay>5000</delay> - 5000 = 5 seconds / 10000 = 10 seconds
+
+	<image>
+		<imageTitle>XXXXX XXXXX</imageTitle>
+		<image>../images/gallery/image_XX.jpg</image>
+		<imageDescription>XXXXX XXXXX</imageDescription>
+		<imageTransition>Blinds</imageTransition>
+	</image>
+
+  END OF INSTRUCTIONS -->
+
+<!-- time in milliseconds to display each picture / 5000 = 5 seconds -->
+  	<delay>5000</delay>
+  	
+  	
+<!-- 1st image -->
+	<image>
+		<imageTitle>Outlast </imageTitle>
+		<image>../images/gallery/image_02.jpg</image>
+		<imageDescription>100% Synthetic</imageDescription>
+		<imageTransition>Blinds</imageTransition>
+	</image>
+	<!-- 2nd image -->	
+	<image>
+		<imageTitle>USE</imageTitle>
+		<image>../images/gallery/image_01.jpg</image>
+		<imageDescription>Reliability</imageDescription>
+		<imageTransition>Blinds</imageTransition>
+	</image>
+
+<!-- 3rd image -->	
+	<image>
+		<imageTitle>WEAR VOLUME</imageTitle>
+		<image>../images/gallery/image_03.jpg</image>
+		<imageDescription>Graph showing wear after testing</imageDescription>
+		<imageTransition>Blinds</imageTransition>
+	</image>
+	
+<!-- 4th image -->	
+	<image>
+		<imageTitle>TESTING</imageTitle>
+		<image>../images/gallery/image_05.jpg</image>
+		<imageDescription>Friction wear test</imageDescription>
+		<imageTransition>Blinds</imageTransition>
+	</image>
+	
+<!-- 5th image -->	
+
+	<image>
+		<imageTitle>Outlast VS Mineral Oils</imageTitle>
+		<image>../images/gallery/image_04.jpg</image>
+		<imageDescription>Molecular sizing</imageDescription>
+		<imageTransition>Blinds</imageTransition>
+	</image>
+
+
+</gallery>

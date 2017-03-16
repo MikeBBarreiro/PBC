@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<!-- ====================================
+		:: META
+		===================================== -->
+		<!-- #BeginEditable "meta" -->
+		<title>Welcome</title>
+		<meta content="place your keywords here" name="Keywords" />
+		<meta content="place a description for your webpage here" name="Description" />
+		<meta content="i3dthemes.com" name="author">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<!-- #EndEditable -->
+		
+		<!-- ====================================
+		:: LANGUAGE
+		===================================== -->
+		<meta charset="utf-8">
+		
+		<!-- ====================================
+		:: VENDOR CSS
+		===================================== -->
+		<!-- #BeginEditable "vendor-css" -->
+		<link href="../Site/styles/bootstrap.css" rel="stylesheet">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- #EndEditable -->
+		
+		<!-- ====================================
+		:: FONTS CSS
+		===================================== -->
+		<link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Roboto:400,100,700" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic" rel="stylesheet" type="text/css">
+		<!-- #BeginEditable "fonts-css" -->
+		<!-- #EndEditable -->
+		
+		<!-- ====================================
+		:: THEME CSS
+		===================================== -->
+		<!-- #BeginEditable "theme-css" -->
+		<link href="../Site/styles/theme/theme.css" rel="stylesheet" type="text/css">
+		<link href="../Site/styles/styles.css" rel="stylesheet" type="text/css">
+		<link href="../Site/styles/shared/shared.css" rel="stylesheet" type="text/css">
+		<link href="../Site/styles/components/components.css" rel="stylesheet" type="text/css">
+		<link href="../Site/styles/helper-classes/helper-classes.css" rel="stylesheet" type="text/css">
+		<link href="../Site/styles/shortcodes/shortcodes.css" rel="stylesheet" type="text/css">
+		<link href="../Site/styles/sliders/sliders.css" rel="stylesheet" type="text/css">
+		<link href="../Site/styles/helper-classes/animations.css" rel="stylesheet" type="text/css">
+		<link href="../Site/styles/custom.css" rel="stylesheet" type="text/css">
+		<!-- #EndEditable -->
+		
+		<!-- ====================================
+		:: PAGE CSS
+		===================================== -->
+		<!-- #BeginEditable "page-css" -->
+		<!-- #EndEditable -->
+		
+		<!-- ====================================
+		:: RESPONSIVE
+		===================================== -->
+		<!-- #BeginEditable "responsive" -->
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<link href="../Site/styles/mobile/mobile.css" rel="stylesheet" type="text/css">
+		<!-- #EndEditable -->
+		
+		<!-- ====================================
+		:: JQUERY
+		===================================== -->
+		<!-- #BeginEditable "jquery-min-migrate" -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+		<!-- #EndEditable -->
+		
+		<!-- ====================================
+		:: IE COMPATIBILITY
+		===================================== -->
+		<!--[if IE]>
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+		<![endif]-->
+		<!--[if lt IE 9]>
+		<link href="../Site/styles/helper-classes/ie.css" rel="stylesheet" type="text/css">
+		<script src="../Site/javascript/theme/html5shiv.js"></script>
+		<script src="../Site/javascript/theme/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body class="designview template">
+
+	<!-- #BeginEditable "top" -->
+	<!-- #EndEditable -->
+	
+	<!-- ====================================
+	:: SKROLL WRAPPER
+	===================================== -->
+	<div id="skrollr-body"><div class="skroll-container">
+		
+
+	<!-- ====================================
+	:: HEADER
+	===================================== -->
+	
+	<!-- #BeginEditable "header-main" --> 
+	<header class="header">
+			
+			<!-- graphic-logo -->
+			<div class="graphic-logo wow flipInX">
+			  <!--webbot bot="Include" tag="BODY" u-include="../Library/shared/graphic-logo.htm" startspan -->
+
+<!-- place your graphic here -->
+
+<a href="../index.html"><img src="../Site/images/logo-small.png" alt="logo"></a>
+
+<!-- place your graphic here -->
+
+
+
+
+
+<!--webbot bot="Include" endspan i-checksum="770" -->
+			</div>
+			
+			<!-- phone-->
+			<div class="phone wow flipInX" data-wow-delay=".5s" data-wow-duration="1s">
+			  <!--webbot bot="Include" tag="BODY" u-include="../Library/shared/phone.htm" startspan -->
+		
+<a href="tel://555.555.1234">  Call <i class="fa fa-mobile"></i>: 555-555-1234</a>
+
+<!--webbot bot="Include" endspan i-checksum="53323" -->
+			</div>
+			
+			<!-- website-name-tagline-wrapper -->
+			<div class="website-name-wrapper">
+				<!-- website-name -->
+				<div class="website-name">
+			    <!--webbot bot="Include" tag="BODY" u-include="../Library/shared/website-name.htm" startspan -->
+<!-- WEBSITE NAME TEXT GOES HERE -->
+
+<h1><a href="../index.html"><img alt="Paintball Command" src="../Library/shared/!cid_image001_jpg@01D1552A.png"/></a></h1>
+
+<!--  Website Name -->
+
+
+<!--webbot bot="Include" endspan i-checksum="21269" -->
+				</div>
+				<!-- tagline -->
+				<div class="tagline">
+			 	<!--webbot bot="Include" tag="BODY" u-include="../Library/shared/tagline.htm" startspan -->
+		
+<h3><a href="../index.html">
+		
+<!-- TAGLINE TEXT GOES HERE -->
+SOUTHEAST LOUISIANA'S PREMIER PAINTBALL FIELD SINCE 2001!
+<!-- Tagline goes here! -->
+<p class="text-center">
+<a href="http://paintballcommand.easybooking123.com" target="_blank">
+					<img alt="" class="auto-style1" height="100" src="../Site/images/prices/booknow2.png" width="105"></a>
+
+</p>
+
+
+
+
+</a></h3>
+
+
+
+<!--webbot bot="Include" endspan i-checksum="58459" -->
+				</div>
+			</div>
+			
+			<!-- text links-->
+			<div class="text-links">
+			  <!--webbot bot="Include" tag="BODY" u-include="../Library/shared/text-links.htm" startspan -->
+
+<!--
+<div >
+<a href="../../about.htm">About Us</a>&raquo;<a href="../../contact.htm">Contact Us
+</a>
+</div>
+-->
+
+<!--webbot bot="Include" endspan i-checksum="1185" -->
+			</div>
+			
+			<!-- social icons -->
+			<div class="social-icons">
+			  <!--webbot bot="Include" tag="BODY" u-include="../Library/shared/social-icons.htm" startspan -->
+
+<div class="social-icon-fontawesome">
+
+  <ul>
+    <li><a href="https://www.facebook.com/paintballcommand" target="_blank">			<i class="fa fa-facebook 		fa-2x fa-fw"></i> </a></li>
+    <li><a href="https://twitter.com/pballcommand" 	target="_blank">	<i class="fa fa-twitter 		fa-2x fa-fw"></i> </a></li>
+    <li><a href="https://www.instagram.com/p/1QeY4QB_pF/" target="_blank">			<i class="fa fa-instagram 	fa-2x fa-fw"></i> </a></li>
+  </ul>
+
+</div>
+
+<!--webbot bot="Include" endspan i-checksum="49049" -->
+			</div>
+			
+			<!-- search -->
+			<div class="google-search">
+			  <!--webbot bot="Include" tag="BODY" u-include="../Library/shared/google-search.htm" startspan -->
+<div class="google-search-wrapper">
+
+<!-- Put the following javascript before the closing </head> tag. -->
+
+<script>
+  (function() {
+    var cx = '004623144674018745587:sghurtv273q';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<div class="gcse-search"></div>
+<!-- Put the following javascript before the closing </head> tag. -->
+
+<!-- w3 will not validate the <gcse:search></gcse:search> tag -->
+
+<!-- you can use the following in place, if it's a concern 
+
+<div class="gcse-searchbox" data-resultsUrl="http://www.example.com" data-newWindow="true" data-queryParameterName="search" ></div>
+
+-->
+</div>
+
+<div class="design-view-google-search"></div>
+
+<!--webbot bot="Include" endspan i-checksum="42264" -->
+			</div>
+			
+			<!-- custom component1 -->
+			<div class="custom-component1">
+			  <!--webbot bot="Include" tag="BODY" u-include="../Library/shared/custom-components/__custom-component1.htm" startspan -->
+
+
+<!--webbot bot="Include" endspan i-checksum="224" -->
+			</div>
+			
+			<!-- custom component2 -->
+			<div class="custom-component2">
+			  <!--webbot bot="Include" tag="BODY" u-include="../Library/shared/custom-components/__custom-component2.htm" startspan -->
+
+
+<!--webbot bot="Include" endspan i-checksum="224" -->
+			</div>
+			
+			<!-- custom component3 -->
+			<div class="custom-component3">
+			  <!--webbot bot="Include" tag="BODY" u-include="../Library/shared/custom-components/__custom-component3.htm" startspan -->
+
+
+<!--webbot bot="Include" endspan i-checksum="224" -->
+			</div>
+			
+			<!-- breakpoint test-->
+			<div class="breakpoints">
+			  <!--webbot bot="Include" tag="BODY" u-include="../Library/shared/custom-components/__breakpoints.htm" startspan -->
+<!--
+<div class="breakpoint-xs visible-xs">xs-Phones 	(0-768)</div>
+<div class="breakpoint-sm visible-sm">sm-Tablets-Port (768-991)</div>
+<div class="breakpoint-md visible-md">md-Tablets-Land (992-1199)</div>
+<div class="breakpoint-lg visible-lg">lg-Desktops (1200)</div>
+-->
+<!--webbot bot="Include" endspan i-checksum="17494" -->
+			</div>
+		  
+			<!-- menu top -->
+			<div class="menu-top">
+			  <!--webbot bot="Include" tag="BODY" u-include="../Library/shared/menu-top.htm" startspan -->
+<nav class="navbar navbar-default cl-effect-1" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="menu-toggle">Main Menu</span>
+      <span class="fa fa-th-list"></span>
+    </button>
+
+  </div>
+
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+    <ul id="menu" class="menu nav navbar-nav">
+			
+		<li><i class="fa"></i> <a class="cl-effect-1" href="../index.html">Home</a></li>
+		<li><i class="fa"></i> <a class="cl-effect-1" href="../Prices.htm">Prices</a></li>
+		<li><i class="fa"></i> <a class="cl-effect-1" href="../Events.htm">Events</a></li>
+		<li><i class="fa"></i> <a class="cl-effect-1" href="../Proshop.htm">Pro Shop</a></li>
+		<li><i class="fa"></i> <a class="cl-effect-1" href="../Faqs.htm">FAQ's</a></li>
+		<li><i class="fa"></i> <a class="cl-effect-1" href="../Waiver.html">Waiver</a></li>
+		<li><i class="fa"></i> <a class="cl-effect-1" href="../ContactUs.html">Contact</a></li>
+		<li><i class="fa"></i> <a class="cl-effect-1" href="../About.htm">About</a></li>		
+        		
+		
+		<!-- numo horizontal links --><!-- numo drop-down login-box -->		
+
+				
+
+	</ul>
+
+			
+<!-- do not edit past this point, unlessen you enjoy fixin' stuff -->
+
+
+
+<script type="text/javascript">
+//var menu = new Spry.Widget.MenuBar("menu");
+</script>
+
+
+</div>
+</nav>
+
+
+<!--webbot bot="Include" endspan i-checksum="33758" -->
+			</div>
+
+	</header>
+	<!-- #EndEditable -->
+	<!-- #BeginEditable "header-lower" -->
+	<!-- #EndEditable -->
+	<!-- #BeginEditable "utility" -->
+	<!-- #EndEditable -->
+	<!-- ====================================
+	:: SHOWCASE
+	===================================== -->
+	<div class="showcase-margin"></div>
+
+	
+	<!-- #BeginEditable "showcase" -->
+	<div class="showcase animated">
+	  <div class="section-inner">
+		<div class="wrapper">
+		  <div class="container">
+			<div class="row inner">
+			  <h1>"Page Title" - H1 tag, include SEO rich keywords or phrases.</h1>
+			  <h2>"Page Description" - H2 tag, or just remove this section if not required!.</h2>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<!-- #EndEditable -->
+	
+	
+	<!-- #BeginEditable "seo" -->
+	<!-- #EndEditable -->
+	<!-- #BeginEditable "breadcrumb" -->
+	<!-- #EndEditable -->
+	<!-- #BeginEditable "main-top" -->
+	<!-- #EndEditable -->
+	<!-- ====================================
+	:: MAIN
+	===================================== -->
+	<!-- #BeginEditable "main" -->
+	<!-- #EndEditable -->
+	<!-- #BeginEditable "main-bottom" -->
+	<!-- #EndEditable -->
+	<!-- #BeginEditable "lower" -->
+	<!-- #EndEditable -->
+	<!-- #BeginEditable "bottom" -->
+	<!-- #EndEditable -->
+	<!-- #BeginEditable "advertising" -->
+	<!-- #EndEditable -->
+	
+	
+	<!-- ====================================
+	:: FOOTER
+	===================================== -->
+	
+	
+	<!-- #BeginEditable "footer" -->
+	<section class="footer-bg">
+		<div class="container">
+		  <div class="row relative">
+			<!--webbot bot="Include" tag="BODY" u-include="../Library/shared/footer.htm" startspan -->
+
+<p class="text-center">
+
+
+</p>
+	
+	<div class="footer-website-name text-center">
+		
+<!-- WEBSITE NAME TEXT GOES HERE -->
+
+<h1><a href="../index.html"><img alt="Paintball Command" src="../Library/shared/!cid_image001_jpg@01D1552A.png"/></a></h1>
+
+<!--  Website Name -->
+
+
+   
+	</div>  
+	
+	<div class="footer-tagline text-center">
+		
+		
+<h3><a href="../index.html">
+		
+<!-- TAGLINE TEXT GOES HERE -->
+SOUTHEAST LOUISIANA'S PREMIER PAINTBALL FIELD SINCE 2001!
+<!-- Tagline goes here! -->
+<p class="text-center">
+<a href="http://paintballcommand.easybooking123.com" target="_blank">
+					<img alt="" class="auto-style1" height="100" src="../Site/images/prices/booknow2.png" width="105"></a>
+
+</p>
+
+
+
+
+</a></h3>
+
+
+
+  
+	</div>  
+	
+
+	<!--webbot bot="Include" endspan i-checksum="34466" --></div>
+		</div>
+	</section>
+	<!-- #EndEditable -->
+	
+	
+	<!-- ====================================
+	:: COPYRIGHT
+	===================================== -->
+	
+	
+	<!-- #BeginEditable "copyright" -->
+	<section class="copyright">
+		<div class="container">
+		  <div class="row inner">
+			<!--webbot bot="Include" tag="BODY" u-include="../Library/shared/copyright.htm" startspan -->
+
+	
+<p >Copyright <a href="../index.html">2016</a> | Paintball Command | All Rights Reserved.</p>
+		
+
+
+<!--webbot bot="Include" endspan i-checksum="10951" --></div>
+		</div>
+	</section>
+	<!-- #EndEditable -->
+	
+	</div></div>
+	<!-- ====================================
+	:: GOOGLE ANALYTICS / MISC SCRIPT
+	===================================== -->
+	
+	
+	<!-- #BeginEditable "google-analytics" -->
+	<div class="google-analytics">
+	  <!--webbot bot="Include" tag="BODY" u-include="../Library/shared/misc-components/__google-analytics.htm" startspan -->
+
+
+<!--webbot bot="Include" endspan i-checksum="224" -->
+	</div>
+	<div class="misc-scripts1">
+	  <!--webbot bot="Include" tag="BODY" u-include="../Library/shared/misc-components/__misc-scripts1.htm" startspan -->
+
+
+<!--webbot bot="Include" endspan i-checksum="224" -->
+	</div>
+	<div class="misc-scripts2">
+	  <!--webbot bot="Include" tag="BODY" u-include="../Library/shared/misc-components/__misc-scripts2.htm" startspan -->
+
+
+<!--webbot bot="Include" endspan i-checksum="224" -->
+	</div>
+	<!-- #EndEditable -->
+	
+	
+	<!-- ====================================
+	:: REQUIRED SCRIPTS
+	===================================== --> 
+	
+	
+	<!-- #BeginEditable "required-scripts" -->
+	<script src="../Site/javascript/bootstrap.min.js"></script>
+	<!-- #EndEditable -->
+	
+	
+	<!-- ====================================
+	:: VENDOR SCRIPTS
+	===================================== -->
+	
+	
+	<!-- #BeginEditable "vendor-scripts" -->
+	<script src="../Site/javascript/theme/wow.min.js"></script>
+	<script src="../Site/javascript/theme/skrollr.min.js"></script>
+	<script src="../Site/javascript/jquery/jquery.waypoints.min.js"></script>
+	<script src="../Site/javascript/jquery/jquery.ui.totop.js"></script>
+	<script src="../Site/javascript/theme/modernizr.js"></script>
+	<!-- #EndEditable -->
+	
+	
+	<!-- ====================================
+	:: THEME SCRIPTS
+	===================================== -->
+	
+	
+	<!-- #BeginEditable "theme-scripts" -->
+	<script src="../Site/javascript/helper-classes/animations.js"></script>
+	<script src="../Site/javascript/components/components.js"></script>
+	<script src="../Site/javascript/helper-classes/helper-classes.js"></script>
+	<script src="../Site/javascript/shared/shared.js"></script>
+	<script src="../Site/javascript/shortcodes/shortcodes.js"></script>
+	<script src="../Site/javascript/special_functions.js"></script>
+	<script src="../Site/javascript/theme/theme-init.js"></script>
+	<script src="../Site/javascript/custom.js"></script>
+	<!-- #EndEditable -->
+	
+	
+	<!-- ====================================
+	:: PAGE SCRIPTS
+	===================================== -->
+	<!-- #BeginEditable "page-scripts" -->
+	<!-- #EndEditable -->
+
+	</body>
+
+</html>

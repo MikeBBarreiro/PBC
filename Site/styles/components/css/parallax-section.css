@@ -1,0 +1,82 @@
+﻿/* -----------------------------------------
+:: PARALLAX SECTION
+----------------------------------------- */
+.parallax-section {
+	margin-top: 100px;
+}
+
+.ps-title1 {
+	color: #FE0000;
+	font-size: 40px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	line-height: 1.1;
+	margin: 0px auto 50px;
+}
+
+.ps-title2 {
+	color: #ffffff;
+	font-size: 25px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 400;
+	line-height: 2;
+	background: #FE0000;
+	-webkit-transform: skew(-30deg);
+	-moz-transform: skew(-30deg);
+	-o-transform: skew(-30deg);
+	display: inline-block;
+	text-align: center;
+	padding: 0px 30px;
+	margin: 0px 0px 50px 0px;
+}
+
+.ps-description {
+	margin: 0px 0px 50px 0px;
+}
+
+.ps-button1 .btn, .ps-button2 .btn {
+	background: #FE0000;
+	border: 0;
+	border-radius: 10px;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.42857;
+	padding: 7px 20px 7px;
+	margin: 5px auto;
+}
+
+.ps-right {
+	padding: 50px 50px 100px 50px;
+	text-align: center;
+	position: relative;
+}
+
+.ps-left {
+}
+
+.ps-image1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.ps-image2 {
+	position: absolute;
+}
+
+.ps-image3 {
+	position: absolute;
+}
+
+.ps-image4 {
+	position: absolute;
+}
+
+.ps-image5 {
+	position: absolute;
+}
+

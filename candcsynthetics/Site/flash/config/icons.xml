@@ -1,0 +1,77 @@
+ <?xml version="1.0" encoding="UTF-8" ?> 
+<icons>
+
+<!-- INSTRUCTIONS:
+
+1. REMOVE A BUTTON			:select the block of code "<icon> to </icon>" and delete
+2. CHANGE NAME				:change the 'text' between "<iconTitle> and </iconTitle>"
+3. CHANGE HYPERLINK			:change the 'page_name.htm' between "<iconLink> and </iconLink>"
+4. CHANGE IMAGE				:change the 'iconX.png' between "<iconGraphic> and </iconGraphic>"
+5. OPEN LINK IN NEW WINDOW	:change '_self' to '_blank' between "<iconTarget> and </iconTarget>"
+6. ADD A BUTTON				:copy the code below, paste between existing icon, or at bottom of page
+
+  <icon>
+    <iconTitle>XXXXX XXXXX</iconTitle>
+    <iconGraphic>images/icons/iconX.png</iconGraphic>
+    <iconLink>../../XXXXX.htm</iconLink>
+    <iconTarget>_self</iconTarget>
+  </icon>
+
+  END OF INSTRUCTIONS -->
+
+
+<!-- 1st icon -->
+  <icon>
+    <iconTitle>About Us</iconTitle>
+    <iconGraphic>images/icons/icon1.png</iconGraphic>
+    <iconLink>../../about.htm</iconLink>
+    <iconTarget>_self</iconTarget>
+  </icon>
+  
+<!-- 2nd icon -->
+  <icon>
+    <iconTitle>Contact Us</iconTitle>
+    <iconGraphic>images/icons/icon2.png</iconGraphic>
+    <iconLink>../../contact.htm</iconLink>
+    <iconTarget>_self</iconTarget>
+  </icon>
+  
+<!-- 3rd icon -->
+  <icon>
+    <iconTitle>Oil Types</iconTitle>
+    <iconGraphic>images/icons/icon8.png</iconGraphic>
+    <iconLink>../../oils.htm</iconLink>
+    <iconTarget>_self</iconTarget>
+  </icon>
+  
+<!-- 4th icon -->
+   
+<!-- 5th icon -->
+  <icon>
+    <iconTitle>Purchase</iconTitle>
+    <iconGraphic>images/icons/icon9.png</iconGraphic>
+    <iconLink>../../catalog.htm</iconLink>
+    <iconTarget>_self</iconTarget>
+  </icon>
+  
+<!-- 6th icon -->
+  <icon>
+    <iconTitle>FAQs</iconTitle>
+    <iconGraphic>images/icons/icon6.png</iconGraphic>
+    <iconLink>../../faqs.htm</iconLink>
+    <iconTarget>_self</iconTarget>
+  </icon>
+  
+<!-- 7th icon -->
+  <icon>
+    <iconTitle>Search</iconTitle>
+    <iconGraphic>images/icons/icon7.png</iconGraphic>
+    <iconLink>../../sitemap.htm</iconLink>
+    <iconTarget>_self</iconTarget>
+  </icon>
+  
+<!-- copy new icons below this line -->
+
+
+
+</icons>

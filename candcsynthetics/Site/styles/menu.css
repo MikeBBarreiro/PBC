@@ -1,0 +1,65 @@
+﻿/*///////////////////////////////////////////////////*/
+
+#slidemenu {}
+div.slidetabsmenu{
+	text-align: right;
+}
+.slidetabsmenu{line-height :normal;}
+* html .slidetabsmenu{ /*IE only. Add 1em spacing between menu and rest of content*/margin-bottom: 1em;}
+.slidetabsmenu ul{list-style-type: none; margin:0; padding:0;}
+.slidetabsmenu li{display:inline; margin:0; padding:0;}
+
+.slidetabsmenu a{float: left;background :url("../graphics/menu/menu-left.jpg") no-repeat left top; margin:0;
+padding:0 0px 0 3px;}
+
+.slidetabsmenu a span {float: left;display:block;background:url("../graphics/menu/menu-right.jpg") no-repeat right top;
+padding:15px 20px 17px 20px;}
+
+.slidetabsmenu a span a:hover{}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+.slidetabsmenu a span {float:none;}
+/* End IE5-Mac hack */
+.slidetabsmenu li.selected a span{}
+.slidetabsmenu a:hover span{}
+.slidetabsmenu li.selected a{background-position:0% -125px;}
+.slidetabsmenu a:hover{background-position:0% -125px;}
+.slidetabsmenu li.selected a span{background-position:100% -125px;}
+.slidetabsmenu a:hover span{background-position:100% -125px;}
+html>/**/body .IEonlybr{ /*None IE browsers hack*/display: none; /*Hide BR tag in non IE browsers, since it's not needed*/}
+
+/* ######### Style for Drop Down Menu ######### */
+.dropmenudiv_c{background-color: black; position:absolute; top: 0px; border: 1px solid #0099CC; /*THEME CHANGE HERE*/ border-width: 0 1px; line-height:18px; z-index:200; width: 200px; visibility: hidden;}
+.dropmenudiv_c a{width:auto; display:block; text-indent:5px; border:0 solid #918D8D; /*THEME CHANGE HERE*/ border-bottom-width:1px; padding:2px 0;}
+* html .dropmenudiv_c a{ /*IE only hack*/width: 100%;}
+.dropmenudiv_c a:hover{ /*THEME CHANGE HERE*/background-color: #0099CC;}
+
+/* ######## flyout menu ######## */
+
+
+
+
+div.sdmenu 						{ width: 150px;	padding-bottom: 10px;	background: url("../graphics/menu/vmenu_bottom.gif") no-repeat  right bottom; }
+div.sdmenu div 					{ background: url("../graphics/menu/vmenu_title.gif") repeat-x; overflow: hidden; border-bottom: 0px solid #dddddd; }
+div.sdmenu div:first-child 		{ background: url("../graphics/menu/vmenu_top.gif") no-repeat; }
+div.sdmenu div.collapsed 		{ height: 25px; }
+div.sdmenu div.linkonly 		{ height: 25px; }
+div.sdmenu div span 			{ display: block; padding: 5px 25px; background: url("../graphics/menu/expanded.gif") no-repeat 10px center; cursor: pointer; border-bottom: 1px solid #dddddd; }
+div.sdmenu div.collapsed span 	{ background-image: url("../graphics/menu/collapsed.gif"); }
+div.sdmenu div.linkonly span 	{ background-image: none; cursor: pointer;}
+div.sdmenu div a 				{ padding: 5px 10px; background: #eeeeee; display: block; border-bottom: 1px solid #dddddd; }
+div.sdmenu div a.current 		{ background : #cccccc; }
+div.sdmenu div a:hover 			{ background : #4F4F4F url("../graphics/menu/linkarrow.gif") no-repeat right center; color: #ffffff; text-decoration: none; }
+
+div.sdmenu div span a:link,div.sdmenu div span a:visited,div.sdmenu div span a:active 
+								{ padding: 0px; margin: 0px; border: 0px; background-color: transparent; background: url("../graphics/menu/link.gif") no-repeat; }
+div.sdmenu div span a:hover 	{ background: none; color: #fff; }
+
+
+div.sdmenu 						{ color: #ffffff; font-family: Arial, sans-serif; font-size: 12px;  }
+div.sdmenu div span 			{ color: #ffffff; font-weight: bold; }
+div.sdmenu div a 				{ color: #660000;}
+div.sdmenu div a:hover 			{ color: #ffffff; text-decoration: none; }
+div.sdmenu div span a:link,div.sdmenu div span a:visited,div.sdmenu div span a:active 
+								{ color: #ffffff; text-decoration: none; }
+div.sdmenu div span a:hover 	{ color: #cccccc; }

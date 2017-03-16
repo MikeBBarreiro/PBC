@@ -1,0 +1,98 @@
+<!-- INSTRUCTIONS:
+
+1. REMOVE AN IMAGE			:delete the <Slide src ... /> line for the image
+2. CHANGE IMAGE				:replace 'imageX.jpg' file name with new image file name
+3. CHANGE CAPTION			:replace 'Photo description goes here...' with new description
+4. ADD IMAGE TO ALBUM		:copy the 'default' code below, and paste between <Slide scr= ... /> or paste just above the </Album> tag
+5. ADD NEW ALBUM			:copy the 'default' code below, and paste then change any X
+								'album X'  /  'Album X description'  /  'Site/gallery/albumX' '<Slice src='imageX.jpg' 
+
+*** to add a new image, copy the code below
+
+<Slide src='imageX.jpg' caption='Photo description goes here'/>
+
+
+*** or to add a new album, copy this code below
+
+	<Album title='album X' description='Album X Description' path='Site/gallery/albumX' hasThumb='true' thumbSrc='image1.jpg' hasBg='true' bgSrc='' bgScale='0' interval='5' useTransition='true' transType='Fade' transTime='2' firstImage='0' dispSequence='0'>
+		<Slide src='imageX.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		
+	</Album>
+
+
+  END OF INSTRUCTIONS -->
+
+<AlbumBook ver='1.5' 
+title='Album Title' 
+description='Album Description' 
+firstAlbum='0' 
+width='640' 
+height='480' 
+showThumbnails='true' 
+thumbWidth='80' 
+thumbHeight='60' 
+autoStart='true' 
+allowClick='true' 
+clickAction='_blank' 
+playerName='photo_gallery'>
+
+<!-- album 1 -->
+	<Album title='album 1' description='Album 1 Description' path='Site/gallery/album1' hasThumb='true' thumbSrc='image1.jpg' hasBg='true' bgSrc='' bgScale='0' interval='5' useTransition='true' transType='Fade' transTime='2' firstImage='0' dispSequence='0'>
+		<Slide src='image1.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image2.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image3.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image4.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image5.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image6.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image7.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image8.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<!-- paste new images below this line or between 2 existing lines above-->
+		
+	</Album>
+	
+<!-- album 2 -->	
+	<Album title='album2' description='Album 2 Description' path='Site/gallery/album2' hasThumb='true' thumbSrc='image2.jpg' hasBg='true' bgSrc='' bgScale='0' interval='5' useTransition='true' transType='Fade' transTime='2' firstImage='0' dispSequence='0'>
+		<Slide src='image1.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image2.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image3.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image4.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image5.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image6.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image7.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image8.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<!-- paste new images below this line or between 2 existing lines above-->
+		
+	</Album>
+	
+<!-- album 3 -->	
+	<Album title='album3' description='Album 3 Description' path='Site/gallery/album3' hasThumb='true' thumbSrc='image2.jpg' hasBg='true' bgSrc='' bgScale='0' interval='5' useTransition='true' transType='Fade' transTime='2' firstImage='0' dispSequence='0'>
+		<Slide src='image1.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image2.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image3.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image4.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image5.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image6.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image7.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image8.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<!-- paste new images below this line or between 2 existing lines above-->
+		
+	</Album>
+
+<!-- album 4 -->	
+	<Album title='album4' description='Album 4 Description' path='Site/gallery/album4' hasThumb='true' thumbSrc='image2.jpg' hasBg='true' bgSrc='' bgScale='0' interval='5' useTransition='true' transType='Fade' transTime='2' firstImage='0' dispSequence='0'>
+		<Slide src='image1.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image2.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image3.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image4.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image5.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image6.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image7.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<Slide src='image8.jpg' caption='Photo description goes here - 50 characters allowable'/>
+		<!-- paste new images below this line or between 2 existing lines above-->
+		
+	</Album>
+	
+<!-- paste new album below this line -->
+
+
+</AlbumBook>

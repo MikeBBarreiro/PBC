@@ -1,0 +1,50 @@
+ <?xml version="1.0" encoding="UTF-8" ?> 
+<menuButtons>
+
+<!-- INSTRUCTIONS:
+
+1. REMOVE A BUTTON			:select the block of code "<button> to </button>" and delete
+2. CHANGE TITLE				:change the 'text' between "<buttonTitle> and </buttonTitle>"
+3. CHANGE HYPERLINK			:change the 'page_name.htm' between "<buttonURL> and </buttonURL>"
+4. CHANGE DESCRIPTION		:change the 'text' between "<buttonDescription> and </buttonDescription>"
+5. CHANGE IMAGE				:change the 'flash_buttonX.png' between "<buttonImage> and </buttonImage>"
+5. OPEN LINK IN NEW WINDOW	:change '_top' to '_blank' between "<buttonTarget> and </buttonTarget>"
+
+  END OF INSTRUCTIONS -->
+
+<!-- button 1 -->
+	<button>
+		<buttonTitle>About Us</buttonTitle>
+		<buttonDescription>Learn how it all started.</buttonDescription>
+		<buttonURL>../../about.htm</buttonURL>
+		<buttonTarget>_top</buttonTarget>
+		<buttonImage>images/buttons/flash_button1.png</buttonImage>
+	</button>
+
+<!-- button 2 -->
+	<button>
+		<buttonTitle>Purchase</buttonTitle>
+		<buttonDescription>Visit our store to purchase products.</buttonDescription>
+		<buttonURL>../../catalog.htm</buttonURL>
+		<buttonTarget>_top</buttonTarget>
+		<buttonImage>images/buttons/flash_button5.png</buttonImage>
+	</button>
+
+<!-- button 3 -->
+	<button>
+		<buttonTitle>Oil Types</buttonTitle>
+		<buttonDescription>Visit here to learn more about the types of oil.</buttonDescription>
+		<buttonURL>../../oils.htm</buttonURL>
+		<buttonTarget>_top</buttonTarget>
+		<buttonImage>images/buttons/flash_button6.png</buttonImage>
+	</button>
+
+<!-- button 4 -->
+	<button>
+		<buttonTitle>Contact Us</buttonTitle>
+		<buttonDescription>1-985-809-7668: Contact us online, by email, fax, telephone of snail mail.</buttonDescription>
+		<buttonURL>../../contact.htm</buttonURL>
+		<buttonTarget>_top</buttonTarget>
+		<buttonImage>images/buttons/flash_button4.png</buttonImage>
+	</button>
+</menuButtons>
